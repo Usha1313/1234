@@ -1,0 +1,30 @@
+body{
+	margin: 0;
+}
+p{margin: 0;
+font-size: 20px;
+}
+.container{
+	width: 1200px;
+	margin: 0;
+	display: flex;
+}
+.column{
+	flex-basis: 33.33%;
+	padding: 40px 20px;
+	display: flex;
+	}
+
+.box_03,.box_02,.box_01 {
+	padding: 30px;
+	display: flex;
+	align-items: center;
+	box-shadow: 10px 10px 50px # 4141411a;
+	border-radius: 15px;
+	transition-duration: 0.4s;
+}
+.box_03: hover,.box_02: hover,.box_01: hover{
+	box-shadow: -10px -10px 0px # 4141411a;
+	
+}
+
